@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ck"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title_main_menull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Main Menu"
+        android:textColor="#F70227"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/btn_list_movie"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Daftar Film"
+        android:textColor="#F30622"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_main_menull" />
+
+    <Button
+        android:id="@+id/btn_favorit"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Favorit Film"
+        android:textColor="#F30000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_list_movie" />
+
+    <Button
+        android:id="@+id/bt_profil"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Profil"
+        android:textColor="#F30B0B"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_favorit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
